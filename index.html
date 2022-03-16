@@ -6,7 +6,7 @@
   <title>Etch-a-sketch</title>
   <meta name="author" content="">
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   <link rel="stylesheet" href="style.css">
 
   <style>
@@ -18,15 +18,17 @@
   
   #container {
     display: grid;
-    grid-gap: 1em;
+    /* grid-gap: 1em; */
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-cols), 1fr);
   }
   
   .grid-item {
-    padding: 1em;
+    /* padding: 1em; */
     border: 1px solid #ddd;
     text-align: center;
+    width: 40px;
+    height: 40px;
   }
   </style>
   
